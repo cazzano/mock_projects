@@ -1,0 +1,34 @@
+GTA V Projects 🚗
+
+Bank Heist Calculator - Input crew size, calculate money split between players
+Wanted Level System - User gets stars based on crimes, police response changes
+Car Garage Manager - Add/remove cars, check garage capacity, car stats
+Mission Selector - Choose missions, show rewards, track completion
+
+Sleeping Dogs Projects 🥋
+
+Triad Rank System - Fight enemies, gain XP, level up ranks
+Street Food Vendor - Buy/sell food, manage money, health boosts
+Karaoke Score Calculator - Input song performance, calculate final score
+Police vs Triad Choice - Make decisions, track loyalty points
+
+Watch Dogs Projects 💻
+
+Hacking Minigame - Guess passwords, limited attempts, difficulty levels
+Phone Profiler - Generate random citizen profiles, hack their data
+Traffic Light Controller - Change lights, cause chaos, escape timer
+Bank Account Hacker - Transfer money between accounts, avoid detection
+
+Call of Duty Projects 🔫
+
+Kill/Death Ratio Tracker - Input stats, calculate K/D, rank soldiers
+Weapon Damage Calculator - Compare gun stats, headshot multipliers
+Prestige System - Level up, reset progress, unlock rewards
+Team Deathmatch Scoreboard - Track team scores, determine winners
+
+Black Ops Projects 🕵️
+
+Zombie Wave Survival - Survive rounds, buy weapons, track high scores
+Interrogation Simulator - Ask questions, get intel, time pressure
+Safe House Inventory - Manage weapons, ammo, equipment storage
+Mission Briefing Generator - Random objectives, difficulty settings
