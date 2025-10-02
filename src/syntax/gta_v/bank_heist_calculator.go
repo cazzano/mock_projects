@@ -1,4 +1,4 @@
-package cuts_calculator
+package gta_projects
 
 import "fmt"
 import "strconv"
