@@ -13,11 +13,11 @@ fmt.Printf("\nNow Select Project To Start\n\n1.Bank Hiest Cuts Calculator  2.Cri
 fmt.Scanf("%d",&project)
 if project==1{
 
-gta_projects.Cuts_func()
+gta_v.Cuts_func()
 
 } else if project==2 {
 
-   gta_projects.Crimes_func()
+   gta_v.Crimes_func()
 
 } else { break }
 
