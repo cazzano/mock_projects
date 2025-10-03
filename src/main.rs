@@ -10,6 +10,10 @@ fn main() {
 
     let gangster = "shelby";
     let integers=6;
+//    let mut floating: f32;
+//    print!("\nPlease Enter An Floating Numner\n\n--> ");
+//    scan!("{}",floating);
+//    print!("\nThis Is Floating Number {}\n\n",floating);
 
     // We Can Use The loop flow, Relateable To The for by Go.
 
