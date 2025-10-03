@@ -8,7 +8,7 @@ func main(){
 
 for {
 var project int64
-fmt.Printf("\nNow Select Project To Start\n\n1.Bank Hiest Cuts Calculator  2.Crime Responses\n-->  ")
+fmt.Printf("\nNow Select Project To Start\n\n1.Bank Hiest Cuts Calculator  2.Crime Responses  3.Garage Manager\n-->  ")
 
 fmt.Scanf("%d",&project)
 if project==1{
@@ -19,6 +19,8 @@ gta_v.Cuts_func()
 
    gta_v.Crimes_func()
 
+} else if project==3{
+	gta_v.Garage_func()
 } else { break }
 
 }
