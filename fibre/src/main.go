@@ -6,7 +6,7 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 	"fmt"
-	"backend/apis/add_money"
+	"backend/apis/dummy"
 )
 
 type Response struct {
@@ -40,6 +40,10 @@ func main() {
 
 
 	fmt.Printf("\nMy Fucking App\n\n")
+	// Initialize database
+        if err := dummy.InitDB(); err != nil {
+        log.Fatal("Failed to initialize database:", err)
+           }
 	app := fiber.New(fiber.Config{
 		AppName: "Fiber REST API with Blueprints v1.0",
 	})
@@ -54,7 +58,8 @@ func main() {
 	// Register blueprints
 	FuckYouBlueprint(api)
 	HealthBlueprint(api)
-	add_money.AddMoneyBlueprint(api)
+	dummy.AddMoneyBlueprint(api)
+	dummy.GangsterBlueprint(api)
 
 	// Root endpoint
 	app.Get("/", func(c *fiber.Ctx) error {

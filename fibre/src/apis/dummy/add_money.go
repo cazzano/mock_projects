@@ -1,4 +1,4 @@
-package add_money
+package dummy
 
 import (
 	"github.com/gofiber/fiber/v2"
