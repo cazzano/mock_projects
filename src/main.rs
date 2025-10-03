@@ -20,5 +20,5 @@ fn main() {
 }
 
 fn show_values(a: &str,b: &str){
-    print!("\n{}\n\n{}\n",a,b);
+    print!("{}\n\n{}\n",a,b);
 }
