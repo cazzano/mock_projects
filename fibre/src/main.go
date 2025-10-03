@@ -45,7 +45,7 @@ func main() {
         log.Fatal("Failed to initialize database:", err)
            }
 	app := fiber.New(fiber.Config{
-		AppName: "Fiber REST API with Blueprints v1.0",
+		AppName: "The Fucker's App",
 	})
 
 	// Middleware
