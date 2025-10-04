@@ -38,9 +38,12 @@ fn main() {
 
 // Now We Are Going To Do Type Casting using as, Relatable To type() By Go.
 
-let a=40;
-let b=a as f32;
-print!("\nThis is a type casted variable {}\n\n",b);
+       let a=40;
+       let b=a as f32;
+       print!("\nThis is a type casted variable {}\n\n",b);
+// Now We Are Going To Disscuss The Constants using const keyword haah,Relatable To const By Go.
+       const PI: f32=3.14;
+       print!("\nPie's Value Is {}\n\n",PI);
 
 }
 
