@@ -1,9 +1,12 @@
 use text_io::scan;
-
+mod dummy;
 fn main() {
     
     // Our Brand Function print!() Which Could Be Related To The fmt.Printf() Function by Go.
-
+     
+    // Now It Is An External Function Haah
+    dummy::hello::hi();
+    dummy::hi::fuck();
     print!("\nHello, world!\n\n");
 
     // And We Can Use Let To Add Variables Haah, Relatable To The var by Go.
