@@ -267,7 +267,7 @@ async fn delete_gangster(
 pub fn gangster_blueprint(cfg: &mut web::ServiceConfig) {
     cfg.service(
         web::scope("")
-            .route("/add", web::post().to(add_gangster))
+            .route("/add_gangster", web::post().to(add_gangster))
             .route("/gangsters", web::get().to(get_gangsters))
             .route("/gangsters/{id}", web::get().to(get_gangster))
             .route("/gangsters/{id}", web::put().to(update_gangster))
