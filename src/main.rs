@@ -36,6 +36,12 @@ fn main() {
         } else { break }
     }
 
+// Now We Are Going To Do Type Casting using as, Relatable To type() By Go.
+
+let a:i32=40;
+let b=a as f32;
+print!("\nThis is a type casted variable {}\n\n",b);
+
 }
 
 // We Can Make Functions By fn function(), Relatable To The func Functions() By Go.
