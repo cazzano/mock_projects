@@ -1,5 +1,6 @@
 use text_io::scan;
 mod dummy;
+mod sleeping_dogs;
 fn main() {
     
     // Our Brand Function print!() Which Could Be Related To The fmt.Printf() Function by Go.
@@ -21,7 +22,7 @@ fn main() {
      // We Can Use The loop flow, Relateable To The for by Go.
 
     loop{
-        print!("\nEnter Your Choice Haah\n\n1.Gangster  2.Integers  3.Run The Function\n\n--> ");
+        print!("\nEnter Your Choice Haah\n\n1.Gangster  2.Integers  3.Run The Function  4.Calculate Traid Rank\n\n--> ");
         let choice: i64;
         
         // We Can Use The scan!(), Relatable To The fmt.Scanf() By Go.
@@ -36,7 +37,9 @@ fn main() {
             print!("{}",integers);
         } else if choice ==3{
             show_values("Hi I Am Shelby","And My Company Is An Private Limited");
-        } else { break }
+        } else if choice ==4 {
+            sleeping_dogs::traid_rank::traid_rank();
+        } else {break}
     }
 
        // Now We Are Going To Do Type Casting using as, Relatable To type() By Go.
