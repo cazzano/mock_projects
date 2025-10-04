@@ -10,12 +10,12 @@ fn main() {
 
     let gangster = "shelby";
     let integers=6;
-//    let mut floating: f32;
-//    print!("\nPlease Enter An Floating Numner\n\n--> ");
-//    scan!("{}",floating);
-//    print!("\nThis Is Floating Number {}\n\n",floating);
+     //    let mut floating: f32;
+     //    print!("\nPlease Enter An Floating Numner\n\n--> ");
+     //    scan!("{}",floating);
+     //    print!("\nThis Is Floating Number {}\n\n",floating);
 
-    // We Can Use The loop flow, Relateable To The for by Go.
+     // We Can Use The loop flow, Relateable To The for by Go.
 
     loop{
         print!("\nEnter Your Choice Haah\n\n1.Gangster  2.Integers  3.Run The Function\n\n--> ");
@@ -36,12 +36,12 @@ fn main() {
         } else { break }
     }
 
-// Now We Are Going To Do Type Casting using as, Relatable To type() By Go.
+       // Now We Are Going To Do Type Casting using as, Relatable To type() By Go.
 
        let a=40;
        let b=a as f32;
        print!("\nThis is a type casted variable {}\n\n",b);
-// Now We Are Going To Disscuss The Constants using const keyword haah,Relatable To const By Go.
+      // Now We Are Going To Disscuss The Constants using const keyword haah,Relatable To const By Go.
        const PI: f32=3.14;
        print!("\nPie's Value Is {}\n\n",PI);
 
