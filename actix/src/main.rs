@@ -1,6 +1,6 @@
 use actix_web::{web, App, HttpResponse, HttpServer, Responder};
 use actix_cors::Cors;
-use serde::{Deserialize, Serialize};
+use serde::Serialize;
 use std::sync::Mutex;
 
 mod apis;
