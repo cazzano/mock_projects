@@ -98,6 +98,12 @@ async fn main() -> std::io::Result<()> {
                     .configure(dummy::add_money_blueprint)
                     .configure(dummy::gangster_blueprint)
             )
+            .service(dummy::add_conversation)
+            .service(dummy::get_all_conversations)
+            .service(dummy::get_conversation_by_id)
+            .service(dummy::update_conversation)
+            .service(dummy::delete_conversation)
+            .service(dummy::get_conversation_flow); // Add the complex query endpoint
     })
     .bind(("127.0.0.1", 3000))?
     .run()
