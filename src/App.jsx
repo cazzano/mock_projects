@@ -1,12 +1,9 @@
-import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Heart, Star, Zap } from 'lucide-react';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 p-8">
       <div className="max-w-4xl mx-auto space-y-6">
@@ -21,16 +18,16 @@ function App() {
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Zap className="w-5 h-5 text-yellow-500" />
-              Counter Example
+              Static Display
             </CardTitle>
-            <CardDescription>Click the button to increment</CardDescription>
+            <CardDescription>Just a beautiful UI showcase</CardDescription>
           </CardHeader>
           <CardContent className="space-y-4">
             <div className="text-center">
-              <div className="text-5xl font-bold text-slate-900 mb-4">{count}</div>
-              <Button onClick={() => setCount(count + 1)}>
+              <div className="text-5xl font-bold text-slate-900 mb-4">0</div>
+              <Button>
                 <Star className="w-4 h-4 mr-2" />
-                Increment
+                Beautiful Button
               </Button>
             </div>
           </CardContent>
