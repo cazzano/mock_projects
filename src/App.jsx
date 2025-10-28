@@ -5,12 +5,12 @@ function App() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation Bar */}
-      <nav className="border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav className="border-b border-t border-l border-r border-slate-800">
+        <div className="max-w-7xl mx-auto px-10 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
-            <div className="flex items-center">
-              <span className="text-2xl font-bold text-slate-900">Brand</span>
+            <div>            
+              <span className="text-2xl font-bold text-slate-900">Siddo Mosseala</span>
             </div>
 
             {/* Desktop Navigation */}
